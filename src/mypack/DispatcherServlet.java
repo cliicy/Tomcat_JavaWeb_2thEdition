@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.*;
 
 public class DispatcherServlet extends GenericServlet {
-	private String target = "/hello.jap";
+	private String target = "/hello.jsp";
 	
 	public void service (ServletRequest request, ServletResponse response) throws ServletException, IOException {
 		String username = request.getParameter("username");
