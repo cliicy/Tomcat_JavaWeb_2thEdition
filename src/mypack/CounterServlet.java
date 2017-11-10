@@ -20,7 +20,7 @@ public class CounterServlet extends HttpServlet {
 		response.setContentType("text/html;charset=GB2312");
 		
 		PrintWriter out = response.getWriter();
-		out.println("<html<head><title>HelloServlet</title></head>>");
+		out.println("<html><head><title>HelloServlet</title></head>>");
 		out.println("<body>");
 		out.println("<h1>Welcome! You are the "+counter.getCount()+" th visitor.</h1>");
 		out.println("</body></html>");

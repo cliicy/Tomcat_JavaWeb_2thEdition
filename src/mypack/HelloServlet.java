@@ -21,9 +21,9 @@ public class HelloServlet extends HttpServlet {
 		response.setContentType("text/html;charset=GB2312");
 		
 		PrintWriter out = response.getWriter();
-		out.println("<html<head><title>HelloServlet</title></head>>");
+		out.println("<html><head><title>HelloServlet</title></head>>");
 		out.println("<body>");
-		out.println("您好！ "+username);
+		out.println("您好!  "+username);
 		out.println("</body></html>");
 		
 		System.out.println("before close():"+response.isCommitted());
