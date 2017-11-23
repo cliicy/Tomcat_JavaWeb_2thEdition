@@ -33,7 +33,7 @@ try{
 	ResultSet rs=stmt.executeQuery(query);
 	*/
 	ResultSet rs=stmt.executeQuery("select ID,NAME,TITLE,PRICE from BOOKS");
-	out.println("<table border=1 width=400>");
+	out.println("<table border=1 width=800>");
 	while (rs.next()) {
 		String col1=rs.getString(1);
 		String col2=rs.getString(2);
